@@ -8,11 +8,15 @@ alias .....="cd ../../../.."
 
 ## Folder shortcuts
 alias docs="cd ~/Documents"
-alias code="cd ~/Documents/code"
-alias code="cd ~/Documents/code"
+
+## Open Sublime
+alias osu="open -a Sublime\ Text"
+
+## Change into code directory and open in Sublime
+alias code="cd ~/Documents/code && osu ."
 
 ## Bash profile
-alias prof="subl ~/.bash_profile"
+alias prof="osu ~/.bash_profile"
 alias reprof=". ~/.bash_profile"
 
 # Show/hide hidden files in Finder
