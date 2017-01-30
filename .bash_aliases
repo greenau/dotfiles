@@ -1,12 +1,19 @@
-# Easier navigation
+# Shortcuts
+
+## Easier navigation
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 
-# Shortcuts
+## Folder shortcuts
 alias docs="cd ~/Documents"
 alias code="cd ~/Documents/code"
+alias code="cd ~/Documents/code"
+
+## Bash profile
+alias prof="subl ~/.bash_profile"
+alias reprof=". ~/.bash_profile"
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
