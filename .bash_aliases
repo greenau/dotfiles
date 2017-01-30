@@ -6,10 +6,7 @@ alias .....="cd ../../../.."
 
 # Shortcuts
 alias docs="cd ~/Documents"
-
-# Work Folders
-alias ux='cd /Volumes/Delphi/UXD'
-alias comp='cd /Volumes/Delphi/UXD/Components/'
+alias code="cd ~/Documents/code"
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
