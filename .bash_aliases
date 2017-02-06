@@ -9,15 +9,20 @@ alias .....="cd ../../../.."
 ## Folder shortcuts
 alias docs="cd ~/Documents"
 
-## Open Sublime
+## Open sublime
 alias osu="open -a Sublime\ Text"
 
-## Change into code directory and open in Sublime
+## Change into code directory and open sublime
 alias code="cd ~/Documents/code && osu ."
 
 ## Bash profile
 alias prof="osu ~/.bash_profile"
 alias reprof=". ~/.bash_profile"
+
+## GIT
+alias gcm="git commit -m"
+alias gs="git status"
+alias push="git push origin master"
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
@@ -30,3 +35,9 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 # Kill all the tabs in Chrome to free up memory
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
 alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+
+## Create directory and change into
+mkcd () {
+    mkdir "$1"
+    cd "$1"
+}
