@@ -19,6 +19,10 @@ alias code="cd ~/Documents/code && osu ."
 alias prof="osu ~/.bash_profile"
 alias reprof=". ~/.bash_profile"
 
+## Patternlab
+alias pls="gulp patternlab:serve"
+alias opls="cd ~/Documents/code/iCareHealth.AU.UI.Patternlibrary/ && osu && gulp patternlab:serve"
+
 ## GIT
 alias gcm="git commit -m"
 alias gs="git status"
