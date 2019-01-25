@@ -21,7 +21,6 @@ alias reprof=". ~/.bash_profile"
 
 ## Patternlab
 alias pls="gulp patternlab:serve"
-alias opls="cd ~/Documents/code/iCareHealth.AU.UI.Patternlibrary/ && osu && gulp patternlab:serve"
 
 ## GIT
 alias gcm="git commit -m"
